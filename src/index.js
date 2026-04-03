@@ -5,7 +5,8 @@ app.use(express.json()); // middleware
 
 // Basic route
 app.get('/', (req, res) => {
-  res.send('Hey, The Server We made through the node is working Perfectly');
+  res.send('Hey, The Server is live');
+
 });
 
 // API route
